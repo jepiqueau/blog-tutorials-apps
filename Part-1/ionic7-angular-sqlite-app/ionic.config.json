@@ -1,0 +1,7 @@
+{
+  "name": "ionic7-angular-sqlite-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
