@@ -20,12 +20,14 @@ Users can clone individual applications by specifying the path to the app they w
  - `Part-1`:
 
     ```bash
-    git clone https://github.com/jepiqueau/blog-tutorials-apps/Part-1/APP_NAME
+    git clone https://github.com/jepiqueau/blog-tutorials-apps.git
+    cd blog-tutorials-apps/Part-1/APP_NAME
     ```
 
  - `Part-2`:
     ```bash
-    git clone https://github.com/jepiqueau/blog-tutorials-apps/Part-2/APP_NAME
+    git clone https://github.com/jepiqueau/blog-tutorials-apps.git
+    cd blog-tutorials-apps/Part-2/APP_NAME
     ```
 
 ## Contributors ✨
