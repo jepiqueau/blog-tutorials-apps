@@ -1,0 +1,49 @@
+{
+  "name": "ionic7-vue-sqlite-app",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run copy:sql:wasm && vite",
+    "build": "tsc && vite build",
+    "build:web": "npm run copy:sql:wasm && vue-tsc && vite build",
+    "ionic:serve:before": "npm run copy:sql:wasm",
+    "copy:sql:wasm": "copyfiles -u 3 node_modules/sql.js/dist/sql-wasm.wasm public/assets",
+    "preview": "vite preview",
+    "test:e2e": "cypress run",
+    "test:unit": "vitest",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@capacitor-community/sqlite": "^5.2.3",
+    "@capacitor/app": "5.0.6",
+    "@capacitor/core": "5.3.0",
+    "@capacitor/haptics": "5.0.6",
+    "@capacitor/keyboard": "5.0.6",
+    "@capacitor/status-bar": "5.0.6",
+    "@capacitor/toast": "^5.0.6",
+    "@ionic/pwa-elements": "^3.2.2",
+    "@ionic/vue": "^7.0.0",
+    "@ionic/vue-router": "^7.0.0",
+    "ionicons": "^7.0.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "5.3.0",
+    "@vitejs/plugin-legacy": "^4.0.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "@vue/test-utils": "^2.3.0",
+    "copyfiles": "^2.4.1",
+    "cypress": "^13.1.0",
+    "eslint": "^8.35.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "jsdom": "^22.1.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9",
+    "vitest": "^0.32.2",
+    "vue-tsc": "^1.0.24"
+  },
+  "description": "An Ionic project"
+}
