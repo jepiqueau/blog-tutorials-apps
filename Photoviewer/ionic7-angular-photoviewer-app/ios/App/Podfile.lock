@@ -1,0 +1,71 @@
+PODS:
+  - Capacitor (5.3.0):
+    - CapacitorCordova
+  - CapacitorApp (5.0.6):
+    - Capacitor
+  - CapacitorCommunityPhotoviewer (3.0.2):
+    - Capacitor
+    - ISVImageScrollView
+    - SDWebImage
+  - CapacitorCordova (5.3.0)
+  - CapacitorHaptics (5.0.6):
+    - Capacitor
+  - CapacitorKeyboard (5.0.6):
+    - Capacitor
+  - CapacitorStatusBar (5.0.6):
+    - Capacitor
+  - CapacitorToast (5.0.6):
+    - Capacitor
+  - ISVImageScrollView (0.3.0)
+  - SDWebImage (5.15.8):
+    - SDWebImage/Core (= 5.15.8)
+  - SDWebImage/Core (5.15.8)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCommunityPhotoviewer (from `../../node_modules/@capacitor-community/photoviewer`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - "CapacitorToast (from `../../node_modules/@capacitor/toast`)"
+
+SPEC REPOS:
+  trunk:
+    - ISVImageScrollView
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCommunityPhotoviewer:
+    :path: "../../node_modules/@capacitor-community/photoviewer"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CapacitorToast:
+    :path: "../../node_modules/@capacitor/toast"
+
+SPEC CHECKSUMS:
+  Capacitor: 1ac9165943bc4f2137642d218c5ba05df811de69
+  CapacitorApp: 024e1b1bea5f883d79f6330d309bc441c88ad04a
+  CapacitorCommunityPhotoviewer: 4a8513e6c6b61c92c67a243108527e5dae6fb0f5
+  CapacitorCordova: b9374d68e63ce29e96ab5db994cf14fbefd722c9
+  CapacitorHaptics: 1fffc1217c7e64a472d7845be50fb0c2f7d4204c
+  CapacitorKeyboard: b978154b024a5f65e044908e37d15b7de58b9d12
+  CapacitorStatusBar: 565c0a1ebd79bb40d797606a8992b4a105885309
+  CapacitorToast: bb0d79b78d9c27c0199b57f735dd50b8fc363489
+  ISVImageScrollView: 2c89840496647af985bfc0e09b346b9aa733ecec
+  SDWebImage: cb032eba469c54e0000e78bcb0a13cdde0a52798
+
+PODFILE CHECKSUM: 62a222fbe99a8fd994e0acf2d6e730bf8bffb639
+
+COCOAPODS: 1.10.0
