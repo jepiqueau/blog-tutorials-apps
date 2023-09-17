@@ -3,7 +3,7 @@ PODS:
     - CapacitorCordova
   - CapacitorApp (5.0.6):
     - Capacitor
-  - CapacitorCommunityPhotoviewer (3.0.2):
+  - CapacitorCommunityPhotoviewer (3.0.3):
     - Capacitor
     - ISVImageScrollView
     - SDWebImage
@@ -57,7 +57,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Capacitor: 1ac9165943bc4f2137642d218c5ba05df811de69
   CapacitorApp: 024e1b1bea5f883d79f6330d309bc441c88ad04a
-  CapacitorCommunityPhotoviewer: 4a8513e6c6b61c92c67a243108527e5dae6fb0f5
+  CapacitorCommunityPhotoviewer: 2847a512b36ef7361905805f24a2bae8c82fdb16
   CapacitorCordova: b9374d68e63ce29e96ab5db994cf14fbefd722c9
   CapacitorHaptics: 1fffc1217c7e64a472d7845be50fb0c2f7d4204c
   CapacitorKeyboard: b978154b024a5f65e044908e37d15b7de58b9d12

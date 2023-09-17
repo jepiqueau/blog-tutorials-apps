@@ -42,6 +42,8 @@ export class ViewerPage implements OnInit {
       {url: 'https://i.ibb.co/JKB0KPk/pizza.jpg', title: 'Pizza Time'},
       {url: 'https://i.ibb.co/VYYPZGk/salmon.jpg', title: 'Salmon '}
     ];
+
+
     this.imageList.push(base64Images[0]);
     this.imageList.push(base64Images[1]);
     // define the image to start from
