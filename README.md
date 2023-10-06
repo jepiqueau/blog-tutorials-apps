@@ -30,6 +30,12 @@ Users can clone individual applications by specifying the path to the app they w
     cd blog-tutorials-apps/Part-2/APP_NAME
     ```
 
+ - `Encryption`:
+    ```bash
+    git clone https://github.com/jepiqueau/blog-tutorials-apps.git
+    cd blog-tutorials-apps/Encryption/APP_NAME
+    ```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
