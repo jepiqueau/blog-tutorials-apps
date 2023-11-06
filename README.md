@@ -21,19 +21,19 @@ Users can clone individual applications by specifying the path to the app they w
 
     ```bash
     git clone https://github.com/jepiqueau/blog-tutorials-apps.git
-    cd blog-tutorials-apps/Part-1/APP_NAME
+    cd blog-tutorials-apps/SQLite/Part-1/APP_NAME
     ```
 
  - `Part-2`:
     ```bash
     git clone https://github.com/jepiqueau/blog-tutorials-apps.git
-    cd blog-tutorials-apps/Part-2/APP_NAME
+    cd blog-tutorials-apps/SQLite/Part-2/APP_NAME
     ```
 
  - `Encryption`:
     ```bash
     git clone https://github.com/jepiqueau/blog-tutorials-apps.git
-    cd blog-tutorials-apps/Encryption/APP_NAME
+    cd blog-tutorials-appsSQLite/Encryption/APP_NAME
     ```
 
 ## Contributors ✨
