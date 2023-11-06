@@ -21,24 +21,36 @@ Web or Native applications can be found depending on the capacitor plugin used i
 
 Users can clone individual applications by specifying the path to the app they want to clone within the repository. For example for 
 
- - `Part-1`:
+ - SQLite
+
+   - `Part-1`:
 
     ```bash
     git clone https://github.com/jepiqueau/blog-tutorials-apps.git
     cd blog-tutorials-apps/SQLite/Part-1/APP_NAME
     ```
 
- - `Part-2`:
+   - `Part-2`:
     ```bash
     git clone https://github.com/jepiqueau/blog-tutorials-apps.git
     cd blog-tutorials-apps/SQLite/Part-2/APP_NAME
     ```
 
- - `Encryption`:
+   - `Encryption`:
     ```bash
     git clone https://github.com/jepiqueau/blog-tutorials-apps.git
     cd blog-tutorials-apps/SQLite/Encryption/APP_NAME
     ```
+
+ - Videoplayer
+
+    - `Vant Nuxt`:
+    ```bash
+    git clone https://github.com/jepiqueau/blog-tutorials-apps.git
+    cd blog-tutorials-apps/Videoplayer/APP_NAME
+    ```
+
+
 
 ## Contributors ✨
 
