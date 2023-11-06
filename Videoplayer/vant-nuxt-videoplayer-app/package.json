@@ -1,0 +1,27 @@
+{
+  "name": "vant-nuxt-videoplayer-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.5.1",
+    "@nuxt/devtools": "latest",
+    "@vant/nuxt": "^1.0.3",
+    "nuxt": "^3.8.0",
+    "vant": "^4.7.3",
+    "vue": "^3.3.7",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/core": "^5.5.1",
+    "@capacitor/ios": "^5.5.1",
+    "capacitor-video-player": "^5.0.3"
+  }
+}

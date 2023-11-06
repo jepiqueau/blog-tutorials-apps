@@ -1,0 +1,23 @@
+{
+    "videoList" : [
+        {
+            "title": "MIB2",
+            "description": "Lorem ipsum dolor sit amet. Facilis recusandae ex eaque recusandae non voluptas veniam nam enim modi.",
+            "url": "https://brenopolanski.github.io/html5-video-webvtt-example/MIB2.mp4",
+            "subtitle_url": "https://brenopolanski.github.io/html5-video-webvtt-example/MIB2-subtitles-pt-BR.vtt",
+            "subtitle_langage": "es",
+            "subtitle_options":{"backgroundColor":"rgba(0,0,0,0)","fontSize":18,"foregroundColor":"rgba(255,0,0,1)"},
+            "type": "mp4",
+            "published_at": "July 4 2020 12:30",
+            "device": "all"
+        },
+        {
+            "title": "Big Buck Bunny",
+            "description": "Eos rerum quia ex repellendus asperiores sit sunt aperiam sed amet adipisci nam dignissimos consectetur qui voluptatem voluptas.",
+            "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+            "type": "m3u8",
+            "published_at": "December 3 2021 17:50",
+            "device": "all"
+        }
+    ]
+}

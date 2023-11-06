@@ -1,0 +1,8 @@
+{
+  "appId": "com.jeepq.vant.nuxt.app",
+  "appName": "vant-nuxt-videoplayer-app",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
