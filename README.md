@@ -5,7 +5,11 @@
 
 This repository contains applications created by following the tutorials of https://jepiqueau.github.io/.
 
-The Web-applications are stored in the `Part-1` folder while the Native applications can be found from the `Part-2` folder.
+Web or Native applications can be found depending on the capacitor plugin used in the following folders :
+
+ - SQLite
+ - Photoviewer
+ - Videoplayer
 
 ## Maintainers
 
