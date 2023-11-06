@@ -33,7 +33,7 @@ Users can clone individual applications by specifying the path to the app they w
  - `Encryption`:
     ```bash
     git clone https://github.com/jepiqueau/blog-tutorials-apps.git
-    cd blog-tutorials-appsSQLite/Encryption/APP_NAME
+    cd blog-tutorials-apps/SQLite/Encryption/APP_NAME
     ```
 
 ## Contributors ✨
