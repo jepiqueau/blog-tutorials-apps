@@ -50,6 +50,12 @@ Users can clone individual applications by specifying the path to the app they w
     cd blog-tutorials-apps/Videoplayer/APP_NAME
     ```
 
+    - `Ionic7 Angular`:
+    ```bash
+    git clone https://github.com/jepiqueau/blog-tutorials-apps.git
+    cd blog-tutorials-apps/Videoplayer/APP_NAME
+    ```
+
 
 
 ## Contributors ✨
