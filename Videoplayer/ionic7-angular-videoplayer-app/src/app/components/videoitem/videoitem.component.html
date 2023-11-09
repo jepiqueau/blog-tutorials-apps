@@ -1,0 +1,12 @@
+<ion-item>
+  <ion-avatar slot="start">
+    <img [src]="video!.thumb" />
+  </ion-avatar>
+  <div class="div-item">
+    <ion-label>{{video!.title}}</ion-label>
+    <ion-note>{{video!.note}}</ion-note>
+  </div>
+  <ion-button slot="end" fill="clean" size="large" (click)="play(index!)">
+    <ion-icon name="play-circle-outline"></ion-icon>
+  </ion-button>
+</ion-item>

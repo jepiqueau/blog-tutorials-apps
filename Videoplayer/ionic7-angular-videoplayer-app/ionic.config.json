@@ -1,0 +1,7 @@
+{
+  "name": "ionic7-angular-videoplayer-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
