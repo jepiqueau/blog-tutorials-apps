@@ -12,10 +12,10 @@ export const UserUpgradeStatements = [
   /* add new statements below for next database version when required*/
   /*
   {
-  toVersion: 2,
-  statements: [
-      `ALTER TABLE users ADD COLUMN email TEXT;`,
-  ]
+    toVersion: 2,
+    statements: [
+        `ALTER TABLE users ADD COLUMN email TEXT;`,
+    ],
   },
   */
 ];
