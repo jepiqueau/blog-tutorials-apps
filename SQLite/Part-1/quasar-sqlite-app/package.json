@@ -10,6 +10,7 @@
     "format": "prettier --write \"**/*.{js,ts,vue,css,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "npm run copy:sql:wasm && quasar dev",
+    "build": "quasar build",
     "build:web": "npm run copy:sql:wasm && quasar build",
     "copy:sql:wasm": "copyfiles -u 3 node_modules/sql.js/dist/sql-wasm.wasm public/assets"
   },
