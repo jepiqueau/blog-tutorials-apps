@@ -1,0 +1,56 @@
+{
+  "name": "quasar-sqlite-app",
+  "version": "0.0.1",
+  "description": "A Quasar SQLite Capacitor Project",
+  "productName": "Quasar SQLite App",
+  "author": "QUEAU Jean Pierre <jepi.queau@free.fr>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,css,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "npm run copy:sql:wasm && quasar dev",
+    "build": "quasar build",
+    "build:web": "npm run copy:sql:wasm && quasar build",
+    "build:native": "npm run remove:sql:wasm && quasar build",
+    "copy:sql:wasm": "copyfiles -u 3 node_modules/sql.js/dist/sql-wasm.wasm public/assets",
+    "remove:sql:wasm": "rimraf public/assets/sql-wasm.wasm",
+    "ios:start": "npm run build:native && npx cap sync && npx cap copy && npx cap open ios",
+    "android:start": "npm run build:native && npx cap sync && npx cap copy && npx cap open android",
+    "electron:install": "cd electron && npm install && cd ..",
+    "electron:prepare": "npm run build:native && npx cap sync @capacitor-community/electron && npx cap copy @capacitor-community/electron",
+    "electron:start": "npm run electron:prepare && cd electron && npm run electron:start"
+  },
+  "dependencies": {
+    "@capacitor-community/electron": "^5.0.1",
+    "@capacitor-community/sqlite": "^5.4.2-2",
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/core": "^5.5.1",
+    "@capacitor/ios": "^5.5.1",
+    "@capacitor/toast": "^5.0.6",
+    "@quasar/extras": "^1.16.4",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.5.1",
+    "@quasar/app-vite": "^1.3.0",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "autoprefixer": "^10.4.2",
+    "copyfiles": "^2.4.1",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.5.1",
+    "rimraf": "^5.0.5",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
