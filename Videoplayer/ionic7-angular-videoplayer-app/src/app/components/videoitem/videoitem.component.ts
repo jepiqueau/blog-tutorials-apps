@@ -18,8 +18,6 @@ import { Router } from '@angular/router';
 })
 export class VideoitemComponent implements OnInit {
   @Input() video?: Video;
-  @Input() index?: number;
-  platform: string = 'web';
 
   constructor(private route: Router) {
         addIcons({ playCircleOutline });
@@ -29,10 +27,13 @@ export class VideoitemComponent implements OnInit {
     if (!this.video!.hasOwnProperty('thumb')) {
       this.video!.thumb = 'https://avatars3.githubusercontent.com/u/16580653?v=4';
     }
+    console.log(`***** in ngOnInit id: ${this.video!.id} video title: ${this.video!.title}`)
   }
 
 
-  async play(index: number) {
-    this.route.navigate([`/viewvideo/${index}`]);
+  async play() {
+
+    console.log(`***** id: ${this.video!.id}, video title: ${this.video!.title}`)
+    this.route.navigate([`/viewvideo/${this.video!.id}`]);
   }
 }

@@ -19,7 +19,7 @@ export class ViewvideoPage implements OnInit, AfterViewInit {
   private videoIndex: number = 0;
   private videoPlayer: any;
   private platform: string = 'web';
-  private video: Video | null = {} as Video;
+  private video: Video | undefined = {} as Video;
 
   private handlerPlay: any;
   private handlerPause: any;
@@ -39,14 +39,12 @@ export class ViewvideoPage implements OnInit, AfterViewInit {
     this.route.params.subscribe(params => {
       // Extract the 'id' parameter from the route
       this.videoIndex = +params['id'];
-      console.log(this.videoIndex);
     });
   }
 
   async ngAfterViewInit() {
     // Get the selected video
-    this.video = this.data.getVideo(this.videoIndex);
-
+    this.video = this.data.getVideoById(this.videoIndex);
     // Define the platform and the video player
     const info = await Device.getInfo();
     this.platform = info.platform;

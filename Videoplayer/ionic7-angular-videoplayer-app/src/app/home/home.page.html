@@ -19,6 +19,6 @@
   </ion-header>
 
   <ion-list>
-    <app-videoitem *ngFor="let video of getVideos(); index as i" [video]="video" [index]="i"></app-videoitem>
+    <app-videoitem *ngFor="let video of getVideos()" [video]="video"></app-videoitem>
   </ion-list>
 </ion-content>
