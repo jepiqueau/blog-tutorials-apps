@@ -11,7 +11,7 @@ const config: CapacitorConfig = {
       CapacitorSQLite: {
       iosDatabaseLocation: 'Library/CapacitorDatabase',
       iosIsEncryption: false,
-      iosKeychainPrefix: 'YOUR_APP_NAME',
+      iosKeychainPrefix: 'ionic7-angular-sqlite-app',
       iosBiometric: {
           biometricAuth: false,
           biometricTitle : "Biometric login for capacitor sqlite"
