@@ -1,0 +1,13 @@
+.AppMenu  {
+    .menu-ion-label {
+        color:antiquewhite;
+        font-size: 1.1rem;
+        font-weight: Bold;
+        font-style: italic;
+    }
+    ion-button {
+        --background: transparent;
+        --color: initial;
+        font-size: 0.8rem;
+    }
+}

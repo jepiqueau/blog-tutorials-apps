@@ -1,0 +1,7 @@
+{
+  "name": "typeorm-ionic7-react-sqlite-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

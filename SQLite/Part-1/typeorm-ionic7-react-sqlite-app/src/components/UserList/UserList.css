@@ -1,0 +1,10 @@
+.UserList {
+    #users-ion-list-header {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    ion-card-content {
+        font-size: 1rem;
+    }
+}

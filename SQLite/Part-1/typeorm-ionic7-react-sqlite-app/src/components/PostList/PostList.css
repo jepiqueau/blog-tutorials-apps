@@ -1,0 +1,22 @@
+.PostList {
+    #post-ion-list-header {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .post-author-subtitle {
+        font-size: 1.15rem;
+        font-weight: 500;
+        font-style: italic;
+        color:antiquewhite;
+    }
+    .post-categories-subtitle {
+        font-size: 1.07rem;
+        font-weight: 400;
+        font-style: oblique;
+        color:antiquewhite;
+    }
+    ion-card-content {
+        font-size: 1rem;
+    }
+}

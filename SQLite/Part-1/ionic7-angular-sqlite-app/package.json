@@ -8,7 +8,8 @@
     "start": "ng serve",
     "build": "ng build",
     "ionic:serve:before": "npm run copy:sql:wasm",
-    "copy:sql:wasm": "copyfiles -u 3 node_modules/sql.js/dist/sql-wasm.wasm src/assets",    "watch": "ng build --watch --configuration development",
+    "copy:sql:wasm": "copyfiles -u 3 node_modules/sql.js/dist/sql-wasm.wasm src/assets",
+    "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
   },
