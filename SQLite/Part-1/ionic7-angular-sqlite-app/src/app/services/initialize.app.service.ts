@@ -21,7 +21,7 @@ import { Injectable } from '@angular/core';
              this.platform = this.sqliteService.platform;
              try {
                  if( this.sqliteService.platform === 'web') {
-                     await this.sqliteService.initWebStore();
+                  await this.sqliteService.initWebStore();
                  }
                  // Initialize the myuserdb database
                  const DB_USERS = 'myuserdb'
