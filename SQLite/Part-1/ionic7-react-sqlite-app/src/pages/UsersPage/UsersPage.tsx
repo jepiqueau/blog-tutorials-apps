@@ -83,6 +83,20 @@ const UsersPage: React.FC = () => {
         const dbUsersName = storageServ.getDatabaseName();
         if(ref.current === false) {
           if(platform === "web") {
+            window.addEventListener('beforeunload', (event) => {
+    
+              sqliteServ.closeDatabase(dbNameRef.current,false).then(() => {
+                ref.current = false;  
+              })
+              .catch((error) => {
+                const msg = `Error close database:: ${error}`;
+                console.error(msg);
+                Toast.show({
+                  text: `${msg}`,
+                  duration: 'long'
+                });           
+              });
+            });        
             customElements.whenDefined('jeep-sqlite').then(() => {
               openDatabase();
             })
