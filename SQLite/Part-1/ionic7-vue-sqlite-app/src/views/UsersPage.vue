@@ -55,6 +55,24 @@ export default defineComponent({
       const dbInitialized = computed(() => !!db.value);
       const platform = sqliteServ.getPlatform();
 
+      if(platform === "web") {
+        window.addEventListener('beforeunload', (event) => {
+
+          sqliteServ.closeDatabase(dbNameRef.value, false)
+          .then(() => {
+            isDatabase.value = false;
+          }).catch((error: any) => {
+            const msg = `Error close database:
+                          ${error.message ? error.message : error}`;
+            console.error(msg);
+            Toast.show({
+              text: msg,
+              duration: 'long'
+            });
+          });
+        });        
+      }
+
       const getAllUsers = async (db: Ref<SQLiteDBConnection|null>) => {
         const stmt = 'SELECT * FROM users';
         const values: any[] = [];
